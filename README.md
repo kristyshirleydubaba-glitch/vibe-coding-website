@@ -1,18 +1,17 @@
-# Meri Blouse Studio
+# Petal & Stem Flower Studio
 
-A dependency-free static website for a Papua New Guinea meri blouse business.
+A dependency-free static website for a local flower bouquet business. It uses HTML, CSS, and vanilla JavaScript only.
 
 ## Run locally
 
-Serve this project directory with any static file server, or open `index.html` directly in a browser.
+Open `index.html` in a browser. No install or build step is needed.
 
-## Deploy to Netlify
+## Publish on Netlify
 
-Deploy the repository root as the publish directory. No build command, package installation, or environment variables are required. The `dist/` directory is included for static hosting workflows that need a dedicated output directory.
+Set the publish directory to `.` (the project root) and leave the build command empty. Netlify Forms will detect the custom order form after deployment.
 
-## Customize
+## Update before launch
 
-- Replace sample blouse products, sizes, fabrics, and prices in `index.html`.
-- Update placeholder business story and ordering details.
-- Replace phone, WhatsApp, email, Facebook, and pickup details in the contact section.
-- The custom request form includes Netlify Forms attributes.
+Replace the sample phone and WhatsApp number, business name if needed, bouquet prices, delivery fees, service area, and opening hours in `index.html`. The flower photos are in `assets/`.
+
+The `dist/` folder mirrors the site files for the Sites deployment configuration in `.openai/hosting.json`.
